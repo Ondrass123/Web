@@ -68,6 +68,8 @@ a {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   li {
-	display: block;  
+	display: block;
+	padding: 5px;
+	text-align: center;	
   }
 }
