@@ -75,6 +75,8 @@ a {
 	}
 	header {
 		font-size: 25px;
+		background-image:url(characters.jpeg);
+		background-size: 100% 100%;
 	}
 	h1 {
 		font-size: 25px;
