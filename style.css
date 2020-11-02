@@ -63,6 +63,9 @@ footer {
 a {
 	color: white;
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
 }
 .right {
 	text-align:right;
