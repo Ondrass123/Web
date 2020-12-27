@@ -1,11 +1,13 @@
 body {
 	color:white;
 	margin:0;
-	font-family: Garamond, Tahoma;
+	font-family: Garamond;
 	font-size: 20px;
-	background-color:black;
-	box-sizing: border-box;
+	background-color: #4E4E50;
+	margin: auto;
+	width: 1200px;
 }
+
 header {
 	background-image:url(characters.jpeg);
 	padding: 5px 20px;
@@ -14,12 +16,10 @@ header {
 }
 h1 {
 	padding: 10px;
-	font-size: 40px;
-	display: block;
-	width: 200px;
+	font-size: 30px;
 }
 p {
-	font-size: 30px;
+	font-size: 20px;
 }
 ul {
 	margin: 0;
@@ -49,23 +49,26 @@ section {
 	color:black;
 	padding: 20px;
 	display:flex;
-	flex-direction:row;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
 }
 div {
-	width:29%;
+	width: 45%;
+	height: auto;
 	margin:auto;
+}
+.biggie {
+	height: auto;
+	margin: auto;
+	flex-grow: 1.75;
 }
 footer {
 	background:black;
 	padding: 5px 20px;
-	font-size: 15px;
 }
 a {
 	color: white;
 	text-decoration: none;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
 }
 .right {
 	text-align:right;
@@ -75,6 +78,7 @@ a {
   /* For mobile phones: */
 	body {
 		font-size: 15px;
+		width: auto;
 	}
 	header {
 		font-size: 25px;
@@ -96,7 +100,7 @@ a {
 	section {
 	padding: 20px;
 	display:flex;
-	flex-direction:column;
+	flex-direction:column-reverse;
 	}
 	div {
 		width: 100%;
@@ -106,5 +110,4 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
 }
