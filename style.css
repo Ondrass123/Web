@@ -49,7 +49,7 @@ section {
 	color:black;
 	padding: 20px;
 	display:flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	flex-wrap: wrap-reverse;
 }
 div {
@@ -60,7 +60,7 @@ div {
 .biggie {
 	height: auto;
 	margin: auto;
-	flex-grow: 1.75;
+	flex-grow: 2;
 }
 footer {
 	background:black;
