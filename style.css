@@ -3,7 +3,7 @@ body {
 	margin:0;
 	font-family: Georgia;
 	font-size: 20px;
-	background-color: #1A1A1D;
+	background-image:url(tiles.jpg);
 	margin: auto;
 	width: 1200px;
 }
@@ -42,8 +42,7 @@ li {
 article {
 	color:black;
 	padding: 10px 20px;
-	background-color:white;
-	text-align: center;
+	background-color: white;
 }
 section {
 	background:white;
@@ -124,6 +123,6 @@ img.hover {
   margin-right: auto;
   width: 50%;
 }
-	.footer {
+	.footer p{
 		font-size: 10px;
 	}
