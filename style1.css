@@ -88,7 +88,7 @@ img.hover {
   /* For mobile phones: */
 	body {
 		font-size: 15px;
-		width: auto;
+		width: 85%;
 	}
 	header {
 		font-size: 25px;
